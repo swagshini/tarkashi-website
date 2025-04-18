@@ -8,35 +8,67 @@
 </head>
 <body>
     <header>
-        <h1>Store</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Tarkashi Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="store.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="store-section">
             <h2>Our Products</h2>
-            <div class="product-list">
-                <div class="product">
-                    <img src="images/product1.jpg" alt="Product 1">
-                    <h3>Product 1</h3>
-                    <p>Beautiful Tarkashi design.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Traditional Box">
+                    <h3>Traditional Box</h3>
+                    <p>Beautiful Tarkashi design with intricate metal inlay work.</p>
+                    <div class="product-price">$199.99</div>
+                    <button class="add-to-cart">Add to Cart</button>
                 </div>
-                <div class="product">
-                    <img src="images/product2.jpg" alt="Product 2">
-                    <h3>Product 2</h3>
-                    <p>Elegant and traditional.</p>
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="Decorative Panel">
+                    <h3>Decorative Panel</h3>
+                    <p>Elegant and traditional wall art piece.</p>
+                    <div class="product-price">$299.99</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Jewelry Box">
+                    <h3>Jewelry Box</h3>
+                    <p>Exquisite handcrafted jewelry storage.</p>
+                    <div class="product-price">$249.99</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/product4.jpg" alt="Wall Art">
+                    <h3>Wall Art</h3>
+                    <p>Stunning metal inlay artwork for your walls.</p>
+                    <div class="product-price">$399.99</div>
+                    <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Tarkashi. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Tarkashi</h3>
+                <p>Celebrating the ancient art of metal inlay work</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact: info@tarkashi.com</p>
+                <p>&copy; 2025 Tarkashi. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -8,32 +8,60 @@
 </head>
 <body>
     <header>
-        <h1>Tarkashi</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Tarkashi Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="store.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="hero">
-            <h2>Discover the Art of Tarkashi</h2>
-            <p>An exquisite Indian craft of metal inlay work on wood.</p>
+        <section class="hero-section">
+            <div class="hero-image"></div>
         </section>
-        <section class="gallery">
-            <h3>Gallery</h3>
-            <div class="images">
-                <img src="images/tarkashi1.jpg" alt="Tarkashi Craft 1">
-                <img src="images/tarkashi2.jpg" alt="Tarkashi Craft 2">
-                <img src="images/tarkashi3.jpg" alt="Tarkashi Craft 3">
+        <section class="collections">
+            <h2>Our Collections</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Product 1">
+                    <h3>Traditional Box</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="Product 2">
+                    <h3>Decorative Panel</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Product 3">
+                    <h3>Jewelry Box</h3>
+                </div>
+                <div class="product-card">
+                    <img src="images/product4.jpg" alt="Product 4">
+                    <h3>Wall Art</h3>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="store.html" class="view-all-btn">View All Products</a>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Tarkashi. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Tarkashi</h3>
+                <p>Celebrating the ancient art of metal inlay work</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact: info@tarkashi.com</p>
+                <p>&copy; 2025 Tarkashi. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
